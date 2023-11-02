@@ -1,0 +1,51 @@
+.logo-image {
+  width: 120px;
+}
+.sm-header-ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.sm-header-ul button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.lg-header-ul {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .sm-header-ul {
+    display: none;
+  }
+  .lg-header-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+  }
+  .profile {
+    width: 30px;
+  }
+  .sun-moon-btn {
+    font-size: 25px;
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .logout-btn {
+    background-color: transparent;
+    color: #3b82f6;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    border: 2px solid #3b82f6;
+  }
+}
